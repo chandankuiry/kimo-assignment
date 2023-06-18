@@ -5,12 +5,12 @@
 ### Models
 1. there are two models chapter and courses
 
-### API(route)
+### API
 
 1. `/courses` - get all the  available courses and also provided the sort functionality
-      name -  ASCENDING,
-      date-  DESCENDING,
-      rating-  DESCENDING
+      
+      `name - ASCENDING , date - DESCENDING , rating - DESCENDING`
+
 
 2. `/courses/{course_id}` - get the course overview for particular course
 
@@ -20,12 +20,12 @@
 
 
 ### Tests
-testing functionality code also written in `tests/test_courses.py`
+Testing the api code. Please check in the  `tests/test_courses.py`
 
 
 ### Docker
 
-Dockerfile also metioned for running docker container
+`Dockerfile` also metioned for running docker container
 
 
 ## Run the code in local
@@ -56,7 +56,7 @@ http://localhost:8000/docs
 
 
 ### screenshot pdf of swagger 
-![ScreenShot](https://raw.github.com/chandankuiry/kimo-assignment/master/assets/swagger.pdf})
+![ScreenShot](https://github.com/chandankuiry/kimo-assignment/blob/main/assets/swagger.pdf)
 
 
 
